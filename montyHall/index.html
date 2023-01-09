@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monty Hall</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <div id = "title">
+        <p id ="titleText">
+            <b>Monty Hall Simulation </b>
+        </p>
+    </div>
+    <div id = "stage">
+        <div class = "option">
+            <img class="doorImg" id = "door1" src = "imgs/door.png">
+            <img id = "result1" src="">
+        </div>
+        <div class = "option">
+            <img class="doorImg" id = "door2" src = "imgs/door.png">
+            <img id = "result2" src="">
+        </div>
+        <div class = "option">
+            <img class="doorImg" id = "door3" src = "imgs/door.png">
+            <img id = "result3" src="">
+        </div>
+    </div>
+    <div id ="buttons">
+        <button id="switchButton">Switch</button>
+        <button id="stayButton">Stay</button>
+    </div>
+    <div id = "gameMsg">
+        <p id = "gameText"></p>
+        <button id="resetButton">Reset</button>
+    </div>
+    <div id = "results">
+        <p id ="switchWR"></p>
+        <p id ="stayWR"></p>
+    </div>
+</body>
+</html>

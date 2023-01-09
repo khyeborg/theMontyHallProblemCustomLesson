@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: #95a6c2;
+    color:#141f30;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#titleText{
+    text-decoration:underline;
+    font-size: 30px;
+}
+#stage{
+    display:flex;
+    justify-content: space-around;
+}
+.doorImg{
+    width:20vh;
+}
+.doorImg:hover, button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.option{
+    display:flex;
+    flex-direction: column;
+}
+#result1, #result2, #result3{
+    width: 100px;
+}
+#buttons{
+    margin: 5vh;
+}
+button{
+    /* display:none; */
+    font-size:25px;
+}
+#gameText, #switchWR, #stayWR{
+    font-size: 20px;
+    margin: 2vh;
+}
+#results{
+    text-align: center;
+    display: flex;  
+    flex-direction: column;
+}
